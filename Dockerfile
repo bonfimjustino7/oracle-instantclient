@@ -1,4 +1,4 @@
-FROM python:3.6-slim-bullseye
+FROM python:3.9-slim-bullseye
 
 RUN apt-get update \
     && apt-get --no-install-recommends -y install unzip libaio1 python3-dev libc-dev gcc \
